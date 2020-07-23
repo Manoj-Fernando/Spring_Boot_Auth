@@ -26,7 +26,10 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     public UserDetailsServiceImpl(ApplicationUserRepository applicationUserRepository) {
         this.applicationUserRepository = applicationUserRepository;
     }
-
+    
+	/*
+	 * This method is automatically called by Authentication Manager after filter to authenticate
+	 */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
     	log.info("Loading User data from DB");
