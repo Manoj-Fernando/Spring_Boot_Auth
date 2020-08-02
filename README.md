@@ -12,3 +12,5 @@ A basic Spring boot appliation to understand the JWT login(Authentication, Autho
 * In WebSecurity we configure the public endpoints and authenticated endpoints
 * we also configure the filters present
 * we configure the UserDetailsService class for AuthenticationManager to identify
+
+> Referece : https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/
